@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBDF976E151D0EA300B93572 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDF976D151D0EA300B93572 /* UIKit.framework */; };
 		FBED7736151D00B600E7A5D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBED7735151D00B600E7A5D1 /* Foundation.framework */; };
 		FBED7749151D020D00E7A5D1 /* CustomBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = FBED7747151D020D00E7A5D1 /* CustomBadge.h */; };
 		FBED774A151D020D00E7A5D1 /* CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = FBED7748151D020D00E7A5D1 /* CustomBadge.m */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FBDF976D151D0EA300B93572 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FBED7732151D00B600E7A5D1 /* libUIAdditions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIAdditions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBED7735151D00B600E7A5D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FBED7739151D00B600E7A5D1 /* UIAdditions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAdditions-Prefix.pch"; sourceTree = "<group>"; };
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBDF976E151D0EA300B93572 /* UIKit.framework in Frameworks */,
 				FBED7736151D00B600E7A5D1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,6 +70,7 @@
 		FBED7734151D00B600E7A5D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FBDF976D151D0EA300B93572 /* UIKit.framework */,
 				FBED7735151D00B600E7A5D1 /* Foundation.framework */,
 			);
 			name = Frameworks;
