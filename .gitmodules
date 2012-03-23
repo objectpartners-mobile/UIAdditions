@@ -7,3 +7,6 @@
 [submodule "iCarousel"]
 	path = iCarousel
 	url = https://github.com/nicklockwood/iCarousel.git
+[submodule "MOCommon"]
+	path = MOCommon
+	url = git://github.com/hboon/MOCommon.git
