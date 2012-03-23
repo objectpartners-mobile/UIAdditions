@@ -1,0 +1,9 @@
+[submodule "CustomBadge"]
+	path = CustomBadge
+	url = https://github.com/ckteebe/CustomBadge.git
+[submodule "GlassButtons"]
+	path = GlassButtons
+	url = https://github.com/hboon/GlassButtons.git
+[submodule "iCarousel"]
+	path = iCarousel
+	url = https://github.com/nicklockwood/iCarousel.git
