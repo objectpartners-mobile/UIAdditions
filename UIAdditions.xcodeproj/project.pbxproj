@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FBDF976E151D0EA300B93572 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDF976D151D0EA300B93572 /* UIKit.framework */; };
+		FBDF9775151D0F4B00B93572 /* MOUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = FBDF9773151D0F4B00B93572 /* MOUtility.h */; };
+		FBDF9776151D0F4B00B93572 /* MOUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDF9774151D0F4B00B93572 /* MOUtility.m */; };
 		FBED7736151D00B600E7A5D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBED7735151D00B600E7A5D1 /* Foundation.framework */; };
 		FBED7749151D020D00E7A5D1 /* CustomBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = FBED7747151D020D00E7A5D1 /* CustomBadge.h */; };
 		FBED774A151D020D00E7A5D1 /* CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = FBED7748151D020D00E7A5D1 /* CustomBadge.m */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		FBDF976D151D0EA300B93572 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBDF9773151D0F4B00B93572 /* MOUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOUtility.h; path = MOCommon/MOUtility.h; sourceTree = "<group>"; };
+		FBDF9774151D0F4B00B93572 /* MOUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOUtility.m; path = MOCommon/MOUtility.m; sourceTree = "<group>"; };
 		FBED7732151D00B600E7A5D1 /* libUIAdditions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIAdditions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBED7735151D00B600E7A5D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FBED7739151D00B600E7A5D1 /* UIAdditions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAdditions-Prefix.pch"; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 		FBED774B151D021900E7A5D1 /* GlassButton */ = {
 			isa = PBXGroup;
 			children = (
+				FBDF9773151D0F4B00B93572 /* MOUtility.h */,
+				FBDF9774151D0F4B00B93572 /* MOUtility.m */,
 				FBED774C151D022900E7A5D1 /* MOButton.h */,
 				FBED774D151D022900E7A5D1 /* MOButton.m */,
 				FBED774E151D022900E7A5D1 /* MOGlassButton.h */,
@@ -132,6 +138,7 @@
 				FBED7750151D022900E7A5D1 /* MOButton.h in Headers */,
 				FBED7752151D022900E7A5D1 /* MOGlassButton.h in Headers */,
 				FBED7757151D024000E7A5D1 /* iCarousel.h in Headers */,
+				FBDF9775151D0F4B00B93572 /* MOUtility.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +197,7 @@
 				FBED7751151D022900E7A5D1 /* MOButton.m in Sources */,
 				FBED7753151D022900E7A5D1 /* MOGlassButton.m in Sources */,
 				FBED7758151D024000E7A5D1 /* iCarousel.m in Sources */,
+				FBDF9776151D0F4B00B93572 /* MOUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
